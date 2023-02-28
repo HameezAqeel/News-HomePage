@@ -1,0 +1,28 @@
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* background-color: red; */
+}
+
+img.logo
+{
+    margin-left: 2%;
+    height: 50%;
+}
+ul
+{
+    width: 40vw;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    /* background-color: blue; */
+    color: var(--DarkGrayishBlue);
+}
+li:hover{
+    cursor: pointer;
+    color: var(--Primary-Red);
+}

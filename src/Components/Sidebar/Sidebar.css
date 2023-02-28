@@ -1,0 +1,41 @@
+aside
+{
+    background-color: var(--DarkBlue);
+    width: 30%;
+    margin: 0 5%;
+}
+
+h1.aside
+{
+    color:var(--Primary-Orange);
+    font-size:2.6rem;
+    height: 20%;
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+
+div.update
+{
+    height: 25%;
+    text-align: center;
+    margin: 1% 5%;
+}
+div.update > h3
+{
+  color: var(--OffWhite);
+  margin: 2% auto;
+}
+
+div.update > h3:hover
+{
+    color: var(--Primary-Orange);
+    cursor: pointer;
+}
+hr
+{
+    margin: 5%;
+    height: 1px;
+    border: none;
+    background-color: var(--DarkGrayishBlue);
+}

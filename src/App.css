@@ -1,0 +1,16 @@
+div.container
+{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 2fr 13fr 5fr;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1%;
+}
+div.main
+{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* background-color: gray; */
+    padding: 1%;
+}

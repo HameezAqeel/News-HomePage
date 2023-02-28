@@ -1,0 +1,54 @@
+div.blogLink
+{
+    display: flex;
+    justify-content: space-around;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-left: -2%;
+    margin-right: 2%;
+}
+div.blogCard
+{
+    display: flex;
+    justify-content: space-around;
+    max-height: 25vh;
+    width: 25%;
+    padding-top: 1%;
+}
+
+img.blogImage
+{
+    height: 90%;
+    width: 50%;
+    outline: none;
+}
+
+div.cardInfo
+{
+    height: 100%;
+    padding:0 5%;
+}
+h1.blogCard
+{
+    color: var(--GrayishBlue);
+    text-align: left;
+
+}
+h3.blogCard
+{
+    color: var(--DarkBlue);
+    font-size: 120%;
+  margin: 5% auto;
+  font-weight: 800;
+}
+p.blogCard
+{
+    font-size: 90%;
+    word-spacing: 3px;
+    line-height: 150%;
+}
+h3.blogCard:hover
+{
+    color: var(--Primary-Red);
+    cursor: pointer;
+}
